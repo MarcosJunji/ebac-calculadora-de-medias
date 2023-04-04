@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color:#ecf0f1;
+    padding-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 18px;
+}
+
+header img {
+    height: 30px;
+}
+
+form input{
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+button {
+    border: none;
+    background-color: #009432;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+table {
+    width: 100%;
+    border-bottom: 1px solid;
+    text-align: center;
+}
+
+tbody img {
+    height: 35px;
+}
+
+th  {
+    border-bottom: 2px solid black;
+    padding: 40px 50px 10px; 
+}
+
+td {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 16px;
+}
+
+.resultado {
+    padding: 8px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #000;
+    border-radius: 3px;
+}
+
+.aprovado {
+    background-color: #009432;
+}
+
+.reprovado {
+    background-color: red;
+}
